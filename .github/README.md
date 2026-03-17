@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-personalize-events`](https://www.npmjs.com/package/@aws-sdk/client-personalize-events/v/3.1009.0).
+[`@aws-sdk/client-personalize-events`](https://www.npmjs.com/package/@aws-sdk/client-personalize-events/v/3.1010.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1009.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1010.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-w5nytLoiCcQGeHd0WjuubPc+AK0TCqPvG9YOyno0cg0rW/w2NWf2/q0XzZquIZd2
+sha384-D+7zie9fdm/oN6OxXPgYLsHHQY1fBbxtz73j6IXAkMgdD7qqncWigxv8hqap+aa8
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-personalize-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1009.0/index.min.mjs"
+            "@aws-sdk/client-personalize-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1010.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1009.0/index.min.mjs": "sha384-w5nytLoiCcQGeHd0WjuubPc+AK0TCqPvG9YOyno0cg0rW/w2NWf2/q0XzZquIZd2"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1010.0/index.min.mjs": "sha384-D+7zie9fdm/oN6OxXPgYLsHHQY1fBbxtz73j6IXAkMgdD7qqncWigxv8hqap+aa8"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-personalize-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1009.0/index.min.mjs"
+                        "@aws-sdk/client-personalize-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1010.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1009.0/index.min.mjs": "sha384-w5nytLoiCcQGeHd0WjuubPc+AK0TCqPvG9YOyno0cg0rW/w2NWf2/q0XzZquIZd2"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-personalize-events@3.1010.0/index.min.mjs": "sha384-D+7zie9fdm/oN6OxXPgYLsHHQY1fBbxtz73j6IXAkMgdD7qqncWigxv8hqap+aa8"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1009.0`)
+* Always pin to a specific version (`@3.1010.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-personalize-events/blob/refs/tags/3.1009.0/LICENSE
+https://github.com/cloud-sdk-builds/client-personalize-events/blob/refs/tags/3.1010.0/LICENSE
 ```
 
 ---
